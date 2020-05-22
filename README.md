@@ -26,13 +26,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+Both have the ability to receive a function as a argument and execute it. Except Map can run a new array while foreach will come back undefined.
+
 2. Explain the difference between a callback and a higher order function.
 
+A higher order function takes another function as an argument and returns a function to its caller, while a CB function is passed to another function with the intent that a function will call it.
+
 3. What is closure?
+ 
+Its the Primary source of code and is used for the enclosed variables in scope within the containing outer function.
 
 4. Describe the four rules of the 'this' keyword.
 
+Implicit Binding- this refers to whatever is left of the . when the function is called upon.
+Explicit Binding- refers to whatever we pass into call/apply/bind.
+New Binding- refers to the new object being created.
+Window Binding- If this isnt bound by any of the above it will default to the window object. In Strict mode will return undefined.
+
+
+
 5. Why do we need super() in an extended class?
+
+to Tell the class where to inherit its properties.
 
 ### Task 1 - Project Set up
 

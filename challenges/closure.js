@@ -18,6 +18,7 @@ myFunction();
 
 // Explanation: 
 
+// The Reason nestedFunction can access the variable internal is due to the fact that, nestedFunction is nested within myFunction it can see out into myFunction and access its variables, in turn having access to the scopes above them.
 
 /* Task 2: Counter */
 
